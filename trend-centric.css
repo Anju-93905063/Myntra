@@ -1,0 +1,120 @@
+/* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+          padding:0;
+          margin:0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-image:url('https://tse1.mm.bing.net/th?id=OIP.w6fdSGqJYF2qkCvhq6X7DgHaCU&pid=Api&P=0&h=180');
+          background-repeat:no-repeat;
+          background-color:black;
+            color: #fff;
+          font-size:25px;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .hh {
+          position:relative;
+          left:50px;
+        }
+        .hhh {
+          position:relative;
+          top:160px;
+        }
+ .menu-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+ .item1 {
+            border: none;
+            border-radius: 1px;
+            box-shadow: 7px 7px 7px 7px grey;
+            margin: 10px;
+            padding: 20px;
+            width: 210px;
+            text-align: left;
+        }
+.item1 img9 {
+    max-width:100%;
+    height:auto;
+
+}
+.description {
+    position:relative;
+    left:20px;
+}
+.price {
+    position:relative;
+    left:20px;
+}
+.button {
+    position:relative;
+    left:75px;
+}.search-container {
+    display: flex;
+  width:470px;
+  position:relative;
+  left:550px;
+    background-color: #fff;
+  padding:6px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    margin-right: 10px;
+    color: #007bff;
+  position:relative;
+  top:10px;
+  left:7px;
+  
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width:50px;
+  height:30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.voice-assistant-icon  {
+    margin-left: 10px;
+    color: #007bff;
+    cursor: pointer;
+position:absolute;
+  top:30%;
+  right:50px;
+}
+.camera-icon {
+    margin-left: 10px;
+    color: #007bff;
+    cursor: pointer;
+position:absolute;
+  top:30%;
+  right:20px;
+}
+.voice-assistant-icon:hover,
+.camera-icon:hover {
+    color: #0056b3;
+}
